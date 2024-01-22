@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & CSS BASICS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- comment here (ctrl + /) -->
+  <h1>HTML CRASH</h1>
+
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE&t=1672s" target="_blank">HTML CRASH VIDEO (from Brad
+        Traversy)</a></li>
+
+  </ul>
+
+  <!-- HEADINGS -->
+  <h2>HEADINGS</h2>
+  <h1>Heading One</h1>
+  <h2>Heading Two</h2>
+  <h3>Heading Three</h3>
+  <h4>Heading Four</h4>
+  <h5>Heading Five</h5>
+  <h6>Heading Six</h6>
+
+  <!-- PARAGRAPH -->
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae voluptate deserunt velit eveniet perferendis
+    facilis dolores possimus? Quae voluptates aspernatur odio eos, soluta ut ullam, in, cumque ducimus maiores debitis.
+  </p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eveniet veritatis vero placeat temporibus unde
+    esse ipsam voluptatibus ratione commodi inventore qui, minus iste. Saepe voluptatum nam at ipsam delectus!
+    <strong>This sentence is rendered using the &nbsp;<code> &lt;strong&gt; &nbsp; </code> tag. </strong>
+  </p> <a href=" https://www.google.com/" target="_blank">This is a link to Google.</a> <br>
+  <a href="https://www.google.com/" target="_blank" class="no-dec">This is a link to Google with text-decoration
+    removed. Notice there is no underline.</a>
+
+  <p> Fig 1 - inline vs Block Level Elements <em>(courtesy Brad Traversy)</em> </p>
+
+  <img src="img/trav_fig_1.jpg" alt="traversy figure 1"> <br>
+
+  <h1 title="MyCompany">Company Name. Hover to see title tag.</h1>
+
+  <!-- LISTS -->
+  <h2>LIST</h2>
+  <ul>
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+    <li>List Item 3</li>
+    <li>List Item 4</li>
+  </ul>
+
+  <!-- TABLES -->
+  <h2>TABLE</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jack Pope</td>
+        <td>jack@byramdigitalmedia.com</td>
+        <td>59</td>
+      </tr>
+      <tr>
+        <td>Joe Smith</td>
+        <td>joe@byramdigitalmedia.com</td>
+        <td>43</td>
+      </tr>
+      <tr>
+        <td>Susan Brown</td>
+        <td>sue@byramdigitalmedia.com</td>
+        <td>537</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <!-- FORMS -->
+  <h2>FORM</h2>
+  <form action="process.php" method="POST">
+
+    <div>
+      <label>First Name:</label>
+      <input type="text" name="firstName" placeholder="First Name...">
+    </div>
+    <br>
+    <div>
+      <label>Last Name:</label>
+      <input type="text" name="lastName" placeholder="Last Name...">
+    </div> <br>
+    <div>
+      <label>Email:</label>
+      <input type="email" name="email" placeholder="Email...">
+    </div> <br>
+    <div>
+      <label>Message:</label> <br>
+      <textarea name="message" id="message" cols="30" rows="10" placeholder="Message..."></textarea>
+    </div> <br>
+
+    <div>
+      <label>Gender:</label> <br>
+      <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="unspecifed">N/A</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label>Age:</label>
+      <input type="number" name="age" value="30">
+    </div>
+    <br>
+    <div>
+      <label>Birthdate:</label>
+      <input type="date" name="birthdate">
+    </div>
+    <br>
+    <input type="submit" name="submit" value="SUBMIT">
+
+  </form>
+
+  <!-- BUTTONS -->
+  <h2>BUTTON</h2>
+  <button>Click</button>
+
+  <!-- IMAGES -->
+  <h2>IMAGES</h2>
+  <img src="img/image.jpg" alt="child riding a large stuffed animal">
+
+  <br>
+  <!-- BLOCKQUOTE -->
+  <h2>BLOCKQUOTE</h2>
+  <blockquote>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero fugit illum impedit laudantium aut non necessitatibus
+    quam esse voluptas illo deserunt deleniti sint, eos perspiciatis maxime ut nobis ipsum. Culpa quos illo eligendi,
+    veritatis ipsam facilis doloremque vero laudantium! Qui rerum repellendus animi nulla ad, alias nesciunt natus
+    eveniet inventore?
+  </blockquote>
+
+  <!-- ABBR -->
+
+  <h2>ABBREVIATION (ABBR)</h2>
+  <p>Wleome to the <abbr title="World Wide Web">WWW</abbr>.</p>
+
+  <!-- CITE -->
+  <h2>CITE</h2>
+
+  <p>Welcome to the <cite>HTML Crash Course</cite> </p>
+
+  <!-- SEMANTIC TAGS -->
+
+  <h2>SUPPLEMENT: HTML5 SEMANTIC TAGS</h2>
+
+  <p> Fig 2 - HTML5 semantic tags <em>(courtesy Brad Traversy)</em> </p>
+
+  <img src="img/trav_fig_2.jpg" alt="Semantic tags (courtesy Brad Traversy)">
+
+  <!-- <div style="margin-top: 500px"></div> -->
+</body>
+
+</html>
